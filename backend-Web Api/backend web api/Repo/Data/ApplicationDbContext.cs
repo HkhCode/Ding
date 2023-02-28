@@ -10,7 +10,7 @@ namespace Repo.Data
 {
     public class ApplicationDbContext:DbContext
     {
-        public ApplicationDbContext() : base()
+        public ApplicationDbContext() : base("mainCS")
         {
 
         }

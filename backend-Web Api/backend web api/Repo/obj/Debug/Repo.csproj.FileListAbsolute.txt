@@ -11,3 +11,5 @@ E:\Project\backend-Web Api\backend web api\Repo\bin\Debug\EntityFramework.SqlSer
 E:\Project\backend-Web Api\backend web api\Repo\bin\Debug\EntityFramework.xml
 E:\Project\backend-Web Api\backend web api\Repo\bin\Debug\EntityFramework.SqlServer.xml
 E:\Project\backend-Web Api\backend web api\Repo\obj\Debug\Repo.csproj.CopyComplete
+E:\Project\backend-Web Api\backend web api\Repo\obj\Debug\Repo.Migrations.firstmigration.resources
+E:\Project\backend-Web Api\backend web api\Repo\obj\Debug\Repo.csproj.GenerateResource.cache
