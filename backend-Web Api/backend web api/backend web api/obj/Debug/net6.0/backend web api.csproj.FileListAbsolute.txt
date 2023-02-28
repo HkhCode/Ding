@@ -1,0 +1,35 @@
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\appsettings.Development.json
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\appsettings.json
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.exe
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.deps.json
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.runtimeconfig.json
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.dll
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.pdb
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.AssemblyReference.cache
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.AssemblyInfoInputs.cache
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.AssemblyInfo.cs
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.CoreCompileInputs.cache
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.MvcApplicationPartsAssemblyInfo.cache
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.backend web api.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.build.backend web api.props
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.backend web api.props
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.backend web api.props
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.build.json
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.development.json
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\scopedcss\bundle\backend web api.styles.css
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.dll
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\refint\backend web api.dll
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.pdb
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.genruntimeconfig.cache
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\ref\backend web api.dll
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.exe
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.exe
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.pdb
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.exe.config
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.pdb
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.exe.config
+E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.CopyComplete
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.dll
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.xml

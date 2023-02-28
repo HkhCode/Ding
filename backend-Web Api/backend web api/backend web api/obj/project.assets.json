@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Bussiness/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Repo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Bussiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bussiness.dll": {}
+        }
+      },
+      "Repo/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repo.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Bussiness/1.0.0": {
+      "type": "project",
+      "path": "../Bussiness/Bussiness.csproj",
+      "msbuildProject": "../Bussiness/Bussiness.csproj"
+    },
+    "Repo/1.0.0": {
+      "type": "project",
+      "path": "../Repo/Repo.csproj",
+      "msbuildProject": "../Repo/Repo.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Bussiness >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\IT Admin\\.nuget\\packages\\": {}
@@ -34,7 +69,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj": {
+              "projectPath": "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,4 +7,8 @@
     <RootNamespace>backend_web_api</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj" />
+  </ItemGroup>
+
 </Project>

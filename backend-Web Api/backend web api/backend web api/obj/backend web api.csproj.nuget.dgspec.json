@@ -28,7 +28,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,6 +65,40 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "E:\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj": {
+                "projectPath": "E:\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj",
+        "projectName": "Repo",
+        "projectPath": "E:\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
