@@ -49,7 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\JSON Serializer.cs" />
-    <Compile Include="Utilities\Security Models\User.cs" />
+    <Compile Include="Utilities\Security Modules\AuthenticationTokenModel.cs" />
     <Compile Include="Utilities\Security Modules\Chooser.cs" />
     <Compile Include="Utilities\Security Modules\Encryption.cs" />
     <Compile Include="Utilities\Logger.cs" />
