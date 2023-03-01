@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bussiness.Utilities
+namespace Bussiness.Utilities.Security_Modules
 {
     public class Encryption
     {
