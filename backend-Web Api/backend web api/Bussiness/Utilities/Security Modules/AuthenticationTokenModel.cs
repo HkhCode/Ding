@@ -10,6 +10,6 @@ namespace Bussiness.Utilities.Security_Modules
     {
         private string _username;
         public string username { get { return _username; }
-            set { Encryption.Encrypt(value); } }
+            set { _username = Encryption.Encrypt(value); } }
     }
 }
