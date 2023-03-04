@@ -11,7 +11,7 @@ namespace backend_web_api.Controllers
         [HttpPost]
         public string login()
         {
-            return Encryption.Decrypt("!eW@tZ#tX$s%");
+            return Encryption.Encrypt("THISLM");
         }
     }
 }

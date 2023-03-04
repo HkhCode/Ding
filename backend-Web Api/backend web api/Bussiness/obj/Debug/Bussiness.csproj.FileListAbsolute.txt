@@ -12,3 +12,5 @@ E:\Project\backend-Web Api\backend web api\Bussiness\obj\Debug\Bussiness.exe
 E:\Project\backend-Web Api\backend web api\Bussiness\obj\Debug\Bussiness.pdb
 E:\Project\backend-Web Api\backend web api\Bussiness\bin\Debug\EntityFramework.dll
 E:\Project\backend-Web Api\backend web api\Bussiness\bin\Debug\EntityFramework.xml
+E:\Project\backend-Web Api\backend web api\Bussiness\bin\Debug\Newtonsoft.Json.dll
+E:\Project\backend-Web Api\backend web api\Bussiness\bin\Debug\Newtonsoft.Json.xml

@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Bussiness\Bussiness.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Bpms\" />
+    <Folder Include="Controllers\CRM\" />
+    <Folder Include="Controllers\Maxoos\" />
+  </ItemGroup>
+
 </Project>

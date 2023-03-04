@@ -33,3 +33,5 @@ E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo
 E:\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.CopyComplete
 E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.dll
 E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.xml
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.xml

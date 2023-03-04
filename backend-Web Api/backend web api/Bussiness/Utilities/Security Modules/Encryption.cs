@@ -12,7 +12,7 @@ namespace Bussiness.Utilities.Security_Modules
         {
             "!","@","#","$","%","X","Z","W"
         };
-        private static Dictionary<int, int> SwitchingIndexes = new Dictionary<int, int>()
+        private static Dictionary<int, int> MainKey = new Dictionary<int, int>()
         {
             [0] = 1,
             [2] = 3,
@@ -23,6 +23,9 @@ namespace Bussiness.Utilities.Security_Modules
             [12] = 13,
             [14] = 15,
         };
+        private static Key_Generator key_generator = new Key_Generator(MainKey);
+
+        private static Dictionary<int, int> SwitchingIndexes = key_generator.KeyConverter(6);
         private static string _AddingCharFirst;
         private static string _AddingCharSecond;
         public static string Reverse(string s)
@@ -40,7 +43,7 @@ namespace Bussiness.Utilities.Security_Modules
                 {
                     case 0:
                         _AddingCharFirst = _AddingElements[0];
-                        _AddingCharSecond= _AddingElements[7];
+                        _AddingCharSecond = _AddingElements[7];
                         break;
                     case 1:
                         _AddingCharFirst = _AddingElements[1];
@@ -115,12 +118,12 @@ namespace Bussiness.Utilities.Security_Modules
                 result += Key[i];
             }
             string res = "";
-            for(int i = 0;i < result.Length;i++) 
+            for (int i = 0; i < result.Length; i++)
             {
-                if(i%2 ==0) { res += result[SwitchingIndexes[i]]; }
+                if (i % 2 == 0) { res += result[SwitchingIndexes[i]]; }
                 else
                 {
-                    foreach(int j in SwitchingIndexes.Keys)
+                    foreach (int j in SwitchingIndexes.Keys)
                     {
                         if (SwitchingIndexes[j] == i)
                         {
