@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import Login from './components/Login'
+let fruits = ["banana" , "apple" , "orange" , "pineapple"]
+const axios = require('axios/dist/node/axios.cjs');
 const App = () => {
-    return <h1>Hello world</h1>
+    return <ul>
+        {fruits.map(item => <li>{item}</li>)}
+    </ul>
 }
 export default App;
