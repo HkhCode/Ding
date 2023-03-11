@@ -1,38 +1,42 @@
 import React from "react";
 import './styles/mainApplicationStyles.css';
 import LocationPre from "./LocationPresentation";
-import pointericon from "../../icons/pointer.png";
-import closeicon from "../../icons/close.png";
+import Aside from "./Aside";
 const MainApplication = () => {
     return (
         <React.Fragment>
             <div className="container">
                 <div className="aside">
-                    <div className="header">
-                        داشبورد
-                    </div>
-                    <div className="menu">
-                            <ul>
-                                <li><a href="#">ثبت ورود و خروج</a></li>
-                                <li><a href="#">گزارش</a></li>
-                                <li><a href="#">درخواست ها</a></li>
-                                <li><a href="#">شیفت های من</a></li>
-                                <li><a href="#">پشتیبانی</a></li>
-                                <li><a href="#">تنظیمات</a></li>
-                            </ul>
-                    </div>
+                    <Aside />
                 </div>
                 <div className="nav">
                     <div className="titles">
                         ثبت ورود و خروج
                     </div>
+                    <div className="LocationTitle">
+                        به شعبه اپال خوش آمدید
+                    </div>
+
                 </div>
                 <div className="LoationSection">
-                    <LocationPre/>
+                    <LocationPre />
                 </div>
-
+                    <div className="buttonsAndtime">
+                        <div className="timeShow">
+                            <p>ورورد در ساعت 9:10</p>
+                            <p>خروج در ساعت 12:00</p>
+                        </div> 
+                        <div className="ButtonsSection">
+                            <div className="entrance">ورورد</div>
+                            <div className="exit">خروج</div>
+                        </div>
+                    </div>
             </div>
         </React.Fragment>
     )
 }
 export default MainApplication;
+
+
+
+//  https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&parameters
