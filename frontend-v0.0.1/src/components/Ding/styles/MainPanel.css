@@ -1,0 +1,59 @@
+.footer{
+    margin-top:250px;
+}
+
+.navbar{
+    grid-column: 2/5;
+    grid-row:1/3;
+    background-color: rgb(0, 153, 176);
+}
+.userDetails
+{
+    padding: 0 1%;
+    display: inline;
+    float: right;
+}
+.userDetails img{
+    width: 40px;
+    height:40px;
+    display: inline;
+    float: right;
+    margin:10px 0;
+}
+.NameAndNumber{
+    float: right;
+    text-align: center;
+    margin:5px 10px;
+    color : white;
+}
+.CompanySelector
+{
+    padding: 5%;
+    border : 2px solid white;
+    font-size:16px;
+    width:60%;
+    margin-top:10px;
+    transition: all ease-in-out 0.1s;
+}
+.CompanySelector:hover{
+    background-color: white;
+    color : black;
+}
+.companyList{
+    color:black;
+    display: none;
+    position: absolute;
+    top:50px;
+    right: 180px;
+    width: 150px;
+    height:auto;
+    background-color: rgb(0, 187, 255);
+    font-size:16px;
+}
+.companyList ul li {
+    list-style: none;
+}
+.companyList ul li:hover{
+    color:white;
+    cursor: pointer;
+}

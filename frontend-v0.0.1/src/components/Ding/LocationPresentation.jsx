@@ -5,8 +5,7 @@ const LocationPre = () => {
 
         <div className="mapSection">
         </div>
-
     </React.Fragment>
 }
-
+new Request({url : 'post'})
 export default LocationPre;

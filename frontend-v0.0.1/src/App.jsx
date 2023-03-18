@@ -1,6 +1,16 @@
 import React, { useState } from "react";
-import MainApplication from "./components/Ding/mainApplication";
+import HomePage from "./components/Ding/HomePage";
+import { Routes, Route } from 'react-router-dom';
+import MainPanel from "./components/Ding/Admin/MainPanel";
 const App = () => {
-    return <MainApplication/>     
+    // return <HomePage/>     
+    return(
+        <>
+            <Routes>
+                <Route path="/" element={<HomePage/>} />
+                <Route path="/Admin" element={<MainPanel/>}/>
+            </Routes>
+        </>
+    )
 }
 export default App;

@@ -21,7 +21,6 @@
 .menu ul li a:hover{
     color: white;
 }
-
 .footer{
     border-top: solid white 1px;
     margin-top:200px;
@@ -31,12 +30,57 @@
 
 .CopyRight
 {
+    margin-top:300px;
     direction: ltr;
     float: left;
     line-break:loose;
 }
+.icon{
+    margin-left : 5px;
+    display: block;
+}
+.other{
+    transition: all ease-in-out 0.1s;
+    display: none;
+}
+.other:hover
+{
+    cursor: pointer;
+    color: white;
+}
 
 @media(max-width:600px){
-    .header ,.CopyRight{display: none;}
-    .menu{display: none;}
+    .header ,.CopyRight , footer ,.hideli{display: none;}
+    ul li{
+        display: inline;
+        padding:0 3.2%;
+        /* padding-bottom: 15px; */
+        /* direction: ltr; */
+    }
+    #hide{
+        width: 100px;
+        height:100px;
+        background-color: rgb(12, 148, 155);
+        position: absolute;
+        bottom: 30px;
+        left : 40px;
+        display: none;
+    }
+    .other-text{
+        font-size: 12px;
+    }
+    .other{
+        display: inline;
+
+    }
+    .icon{
+        position: relative;
+        top:0;
+    }
+    .linktext{
+        position:relative;
+        bottom: 0;
+        right: 0;
+        font-size:8px;
+    }
 }
