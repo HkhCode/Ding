@@ -1,12 +1,12 @@
 .reportPart{
-    width : 70%;
-    height : 60px;
+    width : 66%;
+    height : 45px;
     background-color:rgb(235,237,237);
     margin : 1% 17%;
-    padding : 1.5% 0;
     border-radius: 5px;
     transition: all ease-in-out 0.1s;
     border-radius: 30px;
+    font-size : 12px;
 }
 .reportPart:hover{
     border : 1px solid rgb(81, 127, 226);
@@ -14,10 +14,15 @@
 
 .ReportDate{
     float : right;
-    width : 10%;
-    border-left: 1px solid black;
-    border-radius: 30px;
-    padding:0.1%;
+    width : 20%;
+    height: 90%;
+    padding: 0.5% 0.1%;
+    background-color: rgb(81, 127, 226);
+    color : rgb(235,237,237);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
 }
 .reportPartsContainer
 {
@@ -43,7 +48,7 @@
 }
 .sumWorkingHour{
     float : left;
-    width :20%;
+    margin : 0.3% 1%;
 }
 .sumWorkingHour p {
     margin : 3% 0;
@@ -56,7 +61,13 @@
     margin : 2% 35%;
     background-color:rgb(235,237,237);
     border-radius: 30px;
-
+}
+.arrowButtonSection{
+    width: 3%;
+    float: left;
+    text-align: center;
+    margin: 2.5% 0;
+    font-size: larger;
 }
 @media(max-width : 600px) {
     .reportSection{

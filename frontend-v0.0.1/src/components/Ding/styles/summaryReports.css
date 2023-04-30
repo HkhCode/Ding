@@ -3,7 +3,7 @@
     /* padding: 1%; */
     margin: 1%;
     height: 500px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(219,219,219);
     float: left;
     border-radius: 25px;
 }
@@ -12,9 +12,10 @@
 .reportTakerFullNameValue {
     /* position: relative;
     top: 1%; */
-    width: 48%;
+    width: 40%;
     display: inline-block;
-    margin: 0.5% 1%;
+    margin: 0.5% 2%;
+    margin-right: 5%;
 }
 
 .reportTakerFullNameValue {
@@ -22,9 +23,10 @@
 }
 
 .summaryReportDataRow {
-    width: 98%;
-    margin: 0.1% 1%;
+    width: 78%;
+    margin: 0.1% 11%;
     float: left;
+    border-top : 1px solid rgb(235, 237, 237);
 }
 
 .summaryReportDataRowTitle {
@@ -33,4 +35,11 @@
 
 .summaryReportDataRowData {
     float: left;
+}
+.userAndReportsSection{
+    width: 40%;
+    margin: 3% 28%;
+    background-color: rgb(235,237,237);
+    padding: 1%;
+    border-radius: 35px;
 }
