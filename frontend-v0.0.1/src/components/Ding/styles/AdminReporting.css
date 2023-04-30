@@ -1,0 +1,184 @@
+.dateSelectingSection{
+    width : 50%;
+    height: 200px;
+    padding : 1%;
+    margin: 1% 23%;
+}
+.dateSelecting input , .dateSelecting select , .monthlyReport input , .monthlyReport select{
+    padding : 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.monthlyReport input , .monthlyReport select{
+    padding: 5px;
+    width : 42%;
+    margin-right: 2%;
+}
+.dateSelecting select , .monthlyReport select{
+    padding : 4px;
+}
+.AdminSideTakeReport{
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    font-size: 14px;
+    width: 80%;
+    margin : 1% 9%;
+    transition: all ease-in-out 0.1s;
+}
+
+.AdminSideTakeReport:hover{
+    color: white;
+    background-color: rgb(0, 102, 255);
+}
+
+.monthlyReport{
+    margin: 3% 25%;
+    border: 1px solid black;
+    padding : 1%;
+    border-radius: 5px;
+}
+.monthlyReport input {
+    margin-right : 0;
+}
+.monthlyReport p{
+    margin: 1% 30%;
+}
+.ChooseUser{
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    font-size: 14px;
+    width: 60%;
+    margin : 1% 19%;
+    transition: all ease-in-out 0.1s;
+    color:white;
+    background-color :rgb(0, 102, 255);
+}
+.ChooseUser:hover{
+    color:black;
+    background-color: white;
+}
+.ChooseUserBox{
+    position: fixed;
+    z-index: 1;
+    width: 70%;
+    background-color : rgb(0, 247, 255);
+    height:500px;
+    margin: 5% 7%;
+    padding : 1%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+}
+.ChooseUserBoxCloseBtn{
+    font-size: 24px;
+    transition: all ease-in-out 0.1s;
+}
+.ChooseUserBoxCloseBtn:hover{
+    cursor: pointer;
+    color:white;
+}
+/* .dateSelectingSection{
+    width : 50%;
+    height: 200px;
+    padding : 1%;
+    margin: 1% 23%;
+}
+
+.dateSelecting input[type="number"],
+.dateSelecting select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+    display: inline-block;
+    width: 48%;
+}
+
+.dateSelecting select {
+    padding : 2px;
+    width: 50%;
+}
+
+.monthlyReport input {
+    margin-right : 6%;
+}
+
+.monthlyReport p{
+    margin: 1% 32%;
+}
+
+.AdminSideTakeReport{
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    font-size: 14px;
+    width: 80%;
+    margin : 1% 9%;
+    transition: all ease-in-out 0.1s;
+}
+
+.AdminSideTakeReport:hover{
+    color: white;
+    background-color: rgb(0, 102, 255);
+}
+
+.monthlyReport{
+    margin: 3% 25%;
+    border: 1px solid black;
+    padding : 1%;
+    border-radius: 5px;
+}
+
+.ChooseUser{
+    border: none;
+    border-radius: 5px;
+    padding : 10px;
+    font-size: 14px;
+    width: 60%;
+    margin : 1% 19%;
+    transition: all ease-in-out 0.1s;
+    color:white;
+    background-color :rgb(0, 102, 255);
+}
+
+.ChooseUser:hover{
+    color:black;
+    background-color: white;
+}
+
+.ChooseUserBox{
+    position: fixed;
+    z-index: 1;
+    width: 70%;
+    background-color : rgb(0, 247, 255);
+    height:500px;
+    margin: 5% 7%;
+    padding : 1%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+}
+
+.ChooseUserBoxCloseBtn{
+    font-size: 24px;
+    transition: all ease-in-out 0.1s;
+}
+
+.ChooseUserBoxCloseBtn:hover{
+    cursor: pointer;
+    color:white;
+}
+.dateSelecting input[type="number"], .dateSelecting select {
+    display: inline-block;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+  }
+  
+  .dateSelecting select {
+    padding: 2px;
+  } */

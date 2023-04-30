@@ -1,0 +1,36 @@
+.DetailsBox{
+    margin : 50px 70px;
+    width :90%;
+    height : auto;
+    background-color: rgb(0, 181, 205);
+    float: left;
+}
+.optionRight , .optionMiddle , .optionLeft , .MidoptionRight , .MidoptionMiddle ,.MidoptionLeft{
+    /* border:1px solid white; */
+    width: 23.2%;
+    height:100px;
+    padding: 5%;
+    /* background-color: black; */
+    float: right;
+    color : white;
+    border-bottom: 1px solid white;
+}
+.MidoptionRight , .MidoptionLeft , .MidoptionMiddle{
+    background-color: #bdbdbd;
+}
+.optionRight , .MidoptionRight{
+    border-left: 1px solid white;
+}
+.optionLeft , .MidoptionLeft{
+    border-right: 1px solid white;
+}
+.mainPnaelOptionsTableTh , .mainPnaelOptionsTableTd{
+    font-weight: normal;
+    font-size:10px;
+}
+.mainPanelRequestsTabel{
+    position: relative;
+    top:1%;
+    left:7%;
+    border-top: 1px solid white;
+}

@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\web service\\web service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj": {
+                "projectPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj",
+        "projectName": "Repo",
+        "projectPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Repo\\Repo.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\web service\\web service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\web service\\web service.csproj",
+        "projectName": "web service",
+        "projectPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\web service\\web service.csproj",
+        "packagesPath": "C:\\Users\\Programming Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\web service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Programming Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "C:\\Users\\Programming Admin\\Desktop\\Project\\backend-Web Api\\backend web api\\Bussiness\\Bussiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MD.PersianDateTime": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

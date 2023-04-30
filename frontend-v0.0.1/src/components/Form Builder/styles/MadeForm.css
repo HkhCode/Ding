@@ -1,0 +1,29 @@
+.madeForm{
+    width: 25%;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+    float: right;
+    margin : 10px;
+    border-radius: 5px;
+}
+.picSection{
+    width: 98%;
+    height: 100px;
+    padding : 5px 1%;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.picSection img{
+    width: 100%;
+    height:100px;
+    border-radius: 5px;
+}
+.disSectio{
+    width: 100%;
+    height:auto;
+    padding : 1%;
+}
+.discription{
+    padding: 5px;
+}

@@ -35,3 +35,40 @@ E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Enti
 E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.xml
 E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.exe
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.deps.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.runtimeconfig.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.dll
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\backend web api.pdb
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.exe
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.exe
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.pdb
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Bussiness.exe.config
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.pdb
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Repo.exe.config
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\bin\Debug\net6.0\EntityFramework.xml
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.backend web api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.build.backend web api.props
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.backend web api.props
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.backend web api.props
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\scopedcss\bundle\backend web api.styles.css
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.dll
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\refint\backend web api.dll
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.pdb
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\backend web api.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Project\backend-Web Api\backend web api\backend web api\obj\Debug\net6.0\ref\backend web api.dll

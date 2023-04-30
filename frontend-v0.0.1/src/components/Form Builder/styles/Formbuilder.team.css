@@ -1,0 +1,78 @@
+.sendEmailSection{
+    margin : 3% 5%;
+    width :70%;
+    height : auto;
+    background-color: rgb(222, 222, 222);
+    float: right;
+}
+
+.teamTitle{
+    float :right;
+    width: 70%;
+    padding :1%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin : 0 4%;
+}
+.gmailSection{
+    margin-right :15px;
+    color : rgb(122, 122, 122);
+    font-size : small;
+}
+.teamMembersSection{
+    padding:10px 2%;
+    border-top:1px solid black;
+    float: right;
+    width: 70%;
+    margin : 0 3%;
+}
+.profileData{
+    padding :10px;
+}
+.profileSection{
+    transition: all ease-in-out 0.1s;
+    float:right;
+}
+.profileSection:hover {
+    background-color: rgb(174, 174, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.teamMemberProfile{
+    float: right;
+    margin : 1% 5%;
+}
+.teamMemberActive , .teamMemberRole{
+    float:left;
+    margin : 1.5% 3%;
+    justify-content: right;
+}
+.teamMembersSection hr {
+    text-align: center;
+    /* float: right; */
+}
+.mappedDivClass{
+    float: right;
+    width: 100%;
+}
+.emailInput{
+    width: 90%;
+    margin: 4%;
+    border : none;
+    padding : 15px;
+    border-radius: 5px;
+}
+.sendEmailSection button{
+    padding :10px;
+    background-color: rgb(206, 0, 206);
+    color : white;
+    border : none;
+    margin : 10px 15%;
+    width : 70%;
+    border-radius: 5px;
+    transition: all ease-in-out 0.1s;
+}
+.sendEmailSection button:hover{
+    background-color: rgb(165, 0, 165); 
+    cursor: pointer;
+}

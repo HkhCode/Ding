@@ -1,0 +1,36 @@
+.summaryReportSection {
+    width: 79%;
+    /* padding: 1%; */
+    margin: 1%;
+    height: 500px;
+    background-color: rgb(197, 197, 197);
+    float: left;
+    border-radius: 25px;
+}
+
+.reportTakerFullName,
+.reportTakerFullNameValue {
+    /* position: relative;
+    top: 1%; */
+    width: 48%;
+    display: inline-block;
+    margin: 0.5% 1%;
+}
+
+.reportTakerFullNameValue {
+    text-align: left;
+}
+
+.summaryReportDataRow {
+    width: 98%;
+    margin: 0.1% 1%;
+    float: left;
+}
+
+.summaryReportDataRowTitle {
+    float: right;
+}
+
+.summaryReportDataRowData {
+    float: left;
+}

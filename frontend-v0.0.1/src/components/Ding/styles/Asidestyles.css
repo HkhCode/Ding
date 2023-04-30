@@ -1,9 +1,3 @@
-.header {
-    color : white;
-    font-size: 22px;
-    padding : 20px 5px;
-    border-bottom: solid 1px white;
-}
 .menu{
     padding: 20px 30px;
 }
@@ -11,21 +5,35 @@
     list-style: none;
     margin: 10px 10px;
 }
+.srmLogoAside{
+    margin : 20% 5% 11% 15%;
+    width: 80%;
+    height : 80px;
+
+}
+.dashboord{
+    color :rgb(160,167,170);
+    font-weight:900;
+    font-size: 24px;
+    margin: 18% 16% 3% 0;
+}
 
 .menu ul li a{
-    color : rgb(51, 51, 51);
+    color :rgb(235,237,237);
     text-decoration: none;
     transition: all ease-in-out 0.1s;
 }
 
 .menu ul li a:hover{
-    color: white;
+    color: /*rgb(160,167,170)*/rgb(160,167,170);
 }
 .footer{
-    border-top: solid white 1px;
-    margin-top:200px;
+    position: absolute;
+    top : 78%;
     padding: 2px;
-    color : white;
+    color : rgb(235,237,237);
+    font-size: 12px;
+    left: 3%;
 }
 
 .CopyRight
@@ -48,7 +56,9 @@
     cursor: pointer;
     color: white;
 }
-
+.UserSideAsideSelectedOption {
+    color : rgb(160,167,170);
+}
 @media(max-width:600px){
     .header ,.CopyRight , footer ,.hideli{display: none;}
     ul li{

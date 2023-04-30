@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4BC539B-C098-4E43-9540-D728A790F0DD}</ProjectGuid>
+    <ProjectGuid>{E642EF70-B216-45D9-A71B-DBE183373A61}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Repo</RootNamespace>
     <AssemblyName>Repo</AssemblyName>
@@ -53,25 +53,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\ApplicationDbContext.cs" />
-    <Compile Include="Migrations\202302280749353_first-migration.cs" />
-    <Compile Include="Migrations\202302280749353_first-migration.designer.cs">
-      <DependentUpon>202302280749353_first-migration.cs</DependentUpon>
+    <Compile Include="Data\ApplicationDBContext.cs" />
+    <Compile Include="Migrations\202304261748343_FistMigration.cs" />
+    <Compile Include="Migrations\202304261748343_FistMigration.designer.cs">
+      <DependentUpon>202304261748343_FistMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304271525078_InAndOutModelFixed.cs" />
+    <Compile Include="Migrations\202304271525078_InAndOutModelFixed.designer.cs">
+      <DependentUpon>202304271525078_InAndOutModelFixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304281428177_ChangedRequestModels.cs" />
+    <Compile Include="Migrations\202304281428177_ChangedRequestModels.designer.cs">
+      <DependentUpon>202304281428177_ChangedRequestModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304281557156_DateTimeChanges.cs" />
+    <Compile Include="Migrations\202304281557156_DateTimeChanges.designer.cs">
+      <DependentUpon>202304281557156_DateTimeChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304281642256_AllRequestModelsDateChanged.cs" />
+    <Compile Include="Migrations\202304281642256_AllRequestModelsDateChanged.designer.cs">
+      <DependentUpon>202304281642256_AllRequestModelsDateChanged.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Security Models\SecurityTable.cs" />
+    <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\Ding\Branch.cs" />
+    <Compile Include="Models\Ding\InAndOut.cs" />
+    <Compile Include="Models\Ding\InAndOutRequest.cs" />
+    <Compile Include="Models\Ding\MissionRequest.cs" />
+    <Compile Include="Models\Ding\Report.cs" />
+    <Compile Include="Models\Ding\VacationRequest.cs" />
+    <Compile Include="Models\Ding\Zone.cs" />
+    <Compile Include="Models\Public\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\GenericRepository.cs" />
-    <Compile Include="Repository\IGenericRepository.cs" />
+    <Compile Include="Utilites\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302280749353_first-migration.resx">
-      <DependentUpon>202302280749353_first-migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304261748343_FistMigration.resx">
+      <DependentUpon>202304261748343_FistMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304271525078_InAndOutModelFixed.resx">
+      <DependentUpon>202304271525078_InAndOutModelFixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281428177_ChangedRequestModels.resx">
+      <DependentUpon>202304281428177_ChangedRequestModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281557156_DateTimeChanges.resx">
+      <DependentUpon>202304281557156_DateTimeChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281642256_AllRequestModelsDateChanged.resx">
+      <DependentUpon>202304281642256_AllRequestModelsDateChanged.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

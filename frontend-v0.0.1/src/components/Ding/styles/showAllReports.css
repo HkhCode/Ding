@@ -1,0 +1,75 @@
+.reportPart{
+    width : 70%;
+    height : 60px;
+    background-color:rgb(235,237,237);
+    margin : 1% 17%;
+    padding : 1.5% 0;
+    border-radius: 5px;
+    transition: all ease-in-out 0.1s;
+    border-radius: 30px;
+}
+.reportPart:hover{
+    border : 1px solid rgb(81, 127, 226);
+}
+
+.ReportDate{
+    float : right;
+    width : 10%;
+    border-left: 1px solid black;
+    border-radius: 30px;
+    padding:0.1%;
+}
+.reportPartsContainer
+{
+    width: 70%;
+    height: auto;
+    background-color: rgb(219,219,219);
+    border-radius: 23px;
+    margin: 1% 4%;
+    padding:1%;
+    float: left;
+}
+.ReportDate p{
+    text-align: center;
+    /* margin : 2% 0; */
+}
+.startAndEndDate{
+    float: right;
+    width: 20%;
+}
+.startAndEndDate p{
+    text-align: center;
+    margin : 3% 0;
+}
+.sumWorkingHour{
+    float : left;
+    width :20%;
+}
+.sumWorkingHour p {
+    margin : 3% 0;
+    text-align: center;
+}
+.showAllReportsUserDetails{
+    width: 30%;
+    padding: 1% 2%;
+    height : auto;
+    margin : 2% 35%;
+    background-color:rgb(235,237,237);
+    border-radius: 30px;
+
+}
+@media(max-width : 600px) {
+    .reportSection{
+        grid-column: 1/7;
+        grid-row: 4/7;
+    }
+    .ReportDate{
+        width: 30%;
+    }
+    .startAndEndDate{
+        width: 30%;
+    }
+    .sumWorkingHour{
+        width:30%;
+    }
+}

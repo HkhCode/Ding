@@ -15,7 +15,6 @@
     <Folder Include="Controllers\Bpms\" />
     <Folder Include="Controllers\CRM\" />
     <Folder Include="Controllers\Maxoos\" />
-    <Folder Include="Controllers\Ding\" />
   </ItemGroup>
 
 </Project>

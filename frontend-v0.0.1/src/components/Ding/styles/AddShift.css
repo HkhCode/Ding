@@ -1,0 +1,148 @@
+#IsClosed{
+    display: inline-block;
+    vertical-align: middle;
+}
+.closedCheckSection{
+    padding : 1%;
+    display: inline-block;
+}
+.setWorkingTimeForShift , .saveShift{
+    border : 1.5px solid rgb(0, 119, 255);
+    border-radius: 5px;
+    padding : 0.5% 1%;
+    background-color: white;
+    transition: all ease-in-out 0.1s;
+    margin: 0 1%;
+    font-size: 10px;
+}
+.saveShift{
+    width: 98%;
+    margin: 1%;
+    padding: 10px;
+    font-size: 12px;
+}
+.setWorkingTimeForShift:hover , .saveShift:hover{
+    background-color: rgb(0, 119, 255);
+    cursor: pointer;
+    color: white;
+
+}
+.AddShiftsTable{
+    border-collapse: collapse;
+}
+.AddShiftsTable tr > th {
+    font-weight: normal;
+    font-size: 10px;
+    border: solid thin;
+    background-color: rgb(196, 196, 196);
+}
+.AddShiftsTable tr > td{
+    border : solid thin;
+    font-size: 10px;
+}
+.moreWorkOnVacationSection
+{
+    font-size: 9px !important;
+}
+.moreWorkOnVacationSection input{
+    width: 9px;
+    height: 9px;
+}
+.shiftDaysColumn{
+    background-color: rgb(196, 196, 196);
+}
+.AddShiftBox{
+    position: fixed;
+    top : 10%;
+    right : 25%;
+    z-index: 1;
+    width: 60%;
+    height: 400px;
+    background-color: rgb(204, 204, 204);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+.AddShiftBoxTitle{
+    width: 98%;
+    height: auto;
+    padding : 1%;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    text-align: center;
+}
+.AddShiftBoxTitle span{
+    margin : 0 8%;
+    text-align: center;
+    font-size: 14px;
+    /* border-top : solid thin white; */
+}
+.AddShiftBoxTitle p:nth-child(1){
+    margin-left: 4%;
+}
+.startShiftTimeSection{
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 0.5%;
+}
+.startShiftTimeSection:nth-child(odd){
+    float: right;
+}
+.startShiftTimeSection:nth-child(even){
+    float: left;
+}
+.startShiftTimeSection input {
+    border: none;
+    width: 80%;
+    padding: 1%;
+    border-radius: 5px;
+    transition: all ease-in-out 0.1s;
+}
+.startShiftTimeSection input:focus{
+    background-color: rgb(0, 204, 255);
+    outline: none;
+}
+.ShiftDurationTitle{
+    padding : 0.5%;
+    margin: 0 2%;
+}
+
+#compensationTimeInput{
+    width: 96%;
+    padding: 0.5%;
+    margin: 1.5%;
+    border: none;
+    border-radius: 5px;
+    transition: all ease-in-out 0.1s;
+}
+#compensationTimeInput:focus{
+    outline: none;
+    background-color: rgb(0, 204, 255);
+}
+.AddShiftBox button{
+    width: 96%;
+    padding: 0.5%;
+    margin: 1% 1.5%;
+    border: none;
+    transition: all ease-in-out 0.1s;
+    color: white;
+}
+.closeAddShiftBoxBtn{
+    background-color: rgb(255, 106, 106);
+}
+.saveAddShiftBoxBtn{
+    background-color: rgb(84, 214, 84);
+}
+.closeAddShiftBoxBtn:hover{
+    background-color: rgb(253, 80, 80);
+    cursor: pointer;
+}
+.saveAddShiftBoxBtn:hover{
+    background-color: rgb(74, 185, 74);
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
