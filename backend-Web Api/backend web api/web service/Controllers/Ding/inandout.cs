@@ -54,7 +54,7 @@ namespace web_service.Controllers.Ding
         [HttpGet]
         public List<InAndOut> getInAndOuts()
         {
-            List<InAndOut> inAndOuts = iauManager.GetSpecificInAndOuts().ToList();
+            List<InAndOut> inAndOuts = iauManager.GetSpecificInAndOuts( 1, new DateTime() , new DateTime()).ToList();
             return inAndOuts;
         }
     }
